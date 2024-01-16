@@ -1,0 +1,78 @@
+/* Imports */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    --main-bg-color: #314158;
+    --secondary-bg-color: #1F2937; 
+    --main-text-color: #96A9C4;
+    --secondary-text-color: #E5E7EB;
+    --complementary-text-color: #E5E7EB;
+
+}
+
+/* General settings */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    margin: 0px;
+    padding: 0px;
+    gap: 1.5rem;
+}
+
+/* Header/Top page settings */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+    padding: 0.8rem;
+
+    
+}
+
+.header-text,
+#css-icon {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+/* All sections */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-bg-color);
+    margin: 0rem 0.7rem;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    opacity: 0.9;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+/* Direction Settings Panel */
+
+.dir-showbox {
+    display: block;
+    border: 0.2rem solid var(--main-bg-color);
+    border-radius: 0.8rem;
+    padding: 10rem 15rem;
+}
+
+
