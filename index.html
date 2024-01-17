@@ -10,32 +10,39 @@
 <body>
     <div class="header">
         <div class="material-symbols-outlined" id="css-icon">developer_mode_tv</div>
-        <div class="header-text">{CheatsSheetS}</div>
+        <div class="header-text"> {CheatsSheetS}</div>
     </div>
-    <div class="container direction">
-        <ul class="dir-options-list">
-            <li class="dir-setting" id="flex-row">flex-row</li>
-            <li class="dir-setting" id="row-reverse">row-reverse</li>
-            <li class="dir-setting">column</li>
-            <li class="dir-setting">column-reverse</li>
-        </ul>
-        <div class="dir-showbox">BOX</div>
+    <div class="page-container">
+        <div class="container direction">
+            <ul class="dir-options-list">
+                <li class="dir-setting flex-row" id="flex-row">flex-row</li>
+                <li class="dir-setting" id="row-reverse">row-reverse</li>
+                <li class="dir-setting">column</li>
+                <li class="dir-setting">column-reverse</li>
+            </ul>
+            <div class="box dir-showbox" id="dir-showbox">
+                <div class="square">1</div>
+                <div class="square">2</div>
+                <div class="square">3</div>
+            </div>
+        </div>
+        
+        <div class="container justify">
+            <div class="dir-text">Justify elements</div>
+        </div>
+        
+        <div class="container align-items">
+            <div class="dir-text">Align Items</div>
+        </div>
+        
+        <div class="container align-content">
+            <div class="dir-text">Align Content</div>
+        </div>
+        
+        
+        
+        
     </div>
-
-    <div class="container justify">
-        <div class="dir-text">Justify elements</div>
-    </div>
-
-    <div class="container align-items">
-        <div class="dir-text">Align Items</div>
-    </div>
-
-    <div class="container align-content">
-        <div class="dir-text">Align Content</div>
-    </div>
-
-
-
-
+    <script src="main.js"></script>
 </body>
 </html>
